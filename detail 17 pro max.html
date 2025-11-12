@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>iHave Store - Katalog Produk</title>
+  <style>
+    body {
+      background-color: #FFFACD;
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #333;
+    }
+
+    header {
+      background-color: #FFCC00;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    header h1 {
+      font-size: 48px;
+      color: white;
+      margin: 0;
+    }
+
+    nav {
+      background-color: #FFD700;
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      padding: 15px 0;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #FF6600;
+      font-weight: bold;
+      font-size: 18px;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      background-color: #FFA500;
+      color: white;
+      padding: 5px 10px;
+      border-radius: 5px;
+    }
+
+    .product-container {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 40px;
+      padding: 50px;
+      flex-wrap: wrap;
+    }
+
+    .product-image img {
+      width: 400px;
+      transition: transform 0.3s, filter 0.3s;
+    }
+
+    .product-image img:hover {
+      transform: scale(1.05);
+      filter: brightness(1.1);
+    }
+
+    .product-details {
+      max-width: 500px;
+    }
+
+    .product-details h2 {
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+
+    .price {
+      font-size: 24px;
+      color: #C0392B;
+      margin-bottom: 20px;
+    }
+
+    .description {
+      font-size: 16px;
+      margin-bottom: 30px;
+    }
+
+    .reviews {
+      margin-top: 40px;
+    }
+
+    .review {
+      background-color: #FFF8DC;
+      padding: 15px;
+      border: 1px solid #FFDEAD;
+      border-radius: 10px;
+      margin-bottom: 15px;
+    }
+
+    .stars {
+      color: #FFD700;
+      font-size: 18px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #FFCC00;
+      margin-top: 50px;
+      color: white;
+    }
+  .style7 {
+	color: #FFD700;
+	font-size: 18px;
+	font-weight: bold;
+	font-style: italic;
+}
+  .style8 {font-size: larger; color: #C0392B; margin-bottom: 20px; }
+  .style9 {font-size: 24px; color: #C0392B; margin-bottom: 20px; font-weight: bold; }
+  .style10 {font-size: 16px; margin-bottom: 30px; color: #000000; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1><a href="index.html" class="style8">iHave Store</a></h1>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="shopping guide.html">Shopping Guide</a>
+    <span style="color: #333; font-weight: bold;"><a href="catalog.html">Catalog</a></span>
+    <a href="profile.html">Profile</a>  </nav>
+
+  <div class="product-container">
+    <div class="product-image">
+      <img src="IMG/iPhone_17_Pro_Max_Silver_PDP_Image_Position_1_Silver_Colour__MY-EN-removebg-preview.png" alt="iPhone 17 Pro Max" width="461" height="428">    </div>
+
+    <div class="product-details">
+      <h2>iPhone 17 Pro Max 1TB</h2>
+      <div class="style9">Rp 25.355.000</div>
+      <div class="style10">
+        iPhone 17 Pro Max hadir dengan teknologi terbaru Apple. Mengusung layar Super Retina XDR 6.9 inci, chipset A19 Bionic, dan kamera ProRAW 48MP. Memori internal 1TB sangat cocok untuk kebutuhan profesional.      </div>
+
+      <div class="reviews">
+        <h3>Ulasan Pembeli </h3>
+
+        <div class="review">
+          <div class="style7">Bintang 5 </div>
+          <p><strong>zoyra</strong>: Sangat puas dengan performanya, kamera super jernih!</p>
+        </div>
+
+        <div class="review">
+          <div class="style7">Bintang 4 </div>
+          <p><strong>carmalota</strong>: Barang bagus, pengiriman cepat. Tapi harganya agak tinggi.</p>
+        </div>
+
+        <div class="review">
+          <div class="style7">Bintang 5 </div>
+          <p><strong>aboutraj</strong>: Worth it banget untuk kerja dan hiburan. Storage lega!</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 iHave Store. All rights reserved.
+  </footer>
+
+</body>
+</html>
